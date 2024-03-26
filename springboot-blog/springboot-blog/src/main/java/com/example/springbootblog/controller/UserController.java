@@ -18,7 +18,7 @@ public class UserController {
         return "Welcome to Home Page";
     }
 
-    @GetMapping("/users")
+    @GetMapping("/user")
     public List<User> getUsers(){
         return this.userService.getUsers();
     }
